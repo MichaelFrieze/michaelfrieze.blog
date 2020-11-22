@@ -1,11 +1,11 @@
 import React, { useState, useLayoutEffect } from 'react';
 import { graphql } from 'gatsby';
 import styled from 'styled-components';
-import Layout from 'layout/layout';
-import SEO from 'components/seo';
-import PostGrid from 'components/postGrid/postGrid';
-import CategoryFilter from 'components/categoryFilter';
-import useSiteMetadata from 'hooks/useSiteMetadata';
+import PostGrid from '../components/postGrid/postGrid';
+import CategoryFilter from '../components/categoryFilter';
+import useSiteMetadata from '../hooks/useSiteMetadata';
+import SEO from '../components/seo';
+import Layout from '../layout/layout';
 
 const Home = ({ pageContext, data }) => {
   const [posts, setPosts] = useState([]);

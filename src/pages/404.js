@@ -9,7 +9,7 @@ const COLORS = [
   { r: 255, g: 45, b: 85 }, // pink
   { r: 175, g: 82, b: 222 }, // purple
   { r: 255, g: 59, b: 48 }, // red
-  { r: 255, g: 204, b: 0 }, //yellow
+  { r: 255, g: 204, b: 0 }, // yellow
 ];
 
 const NotFound = () => {

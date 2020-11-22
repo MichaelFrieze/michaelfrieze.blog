@@ -1,18 +1,16 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const MenuIcon = ({ onClickHandler, toggle }) => {
-  return (
-    <MenuIconButton onClick={onClickHandler} toggle={toggle} aria-label="Menu">
-      <MenuIconBreadTop>
-        <div />
-      </MenuIconBreadTop>
-      <MenuIconBreadBottom>
-        <div />
-      </MenuIconBreadBottom>
-    </MenuIconButton>
-  );
-};
+const MenuIcon = ({ onClickHandler, toggle }) => (
+  <MenuIconButton onClick={onClickHandler} toggle={toggle} aria-label="Menu">
+    <MenuIconBreadTop>
+      <div />
+    </MenuIconBreadTop>
+    <MenuIconBreadBottom>
+      <div />
+    </MenuIconBreadBottom>
+  </MenuIconButton>
+);
 
 const MenuIconBreadTop = styled.div`
   top: 22px;

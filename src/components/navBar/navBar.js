@@ -1,9 +1,6 @@
 import React, { useRef, useContext } from 'react';
 import styled, { ThemeContext } from 'styled-components';
 import { Link } from 'gatsby';
-import LinkList from './linkList';
-import ThemeToggleButton from './themeToggleButton/themeToggleButton';
-import MenuIcon from './menuIcon';
 import Background from 'styles/background';
 import {
   listAnimationCSS,
@@ -12,6 +9,9 @@ import {
 } from 'styles/navBarAnimation';
 import useSiteMetadata from 'hooks/useSiteMetadata';
 import useMenu from 'hooks/useMenu';
+import MenuIcon from './menuIcon';
+import ThemeToggleButton from './themeToggleButton/themeToggleButton';
+import LinkList from './linkList';
 
 const NavBar = ({ title, themeToggler }) => {
   const site = useSiteMetadata();

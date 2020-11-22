@@ -1,9 +1,9 @@
 import React, { useRef } from 'react';
 import { Link } from 'gatsby';
 import styled from 'styled-components';
+import useInfiniteScroll from 'hooks/useInfiniteScroll';
 import Card from './card';
 import { ThumbnailWrapper } from './centeredImg';
-import useInfiniteScroll from 'hooks/useInfiniteScroll';
 
 const PostGrid = ({ posts }) => {
   const scrollEdgeRef = useRef(null);

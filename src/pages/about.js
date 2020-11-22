@@ -24,10 +24,7 @@ const About = () => {
   return (
     <Layout>
       <SEO title="About" />
-      <Container
-        dangerouslySetInnerHTML={{ __html: md }}
-        rhythm={rhythm}
-      ></Container>
+      <Container dangerouslySetInnerHTML={{ __html: md }} rhythm={rhythm} />
     </Layout>
   );
 };
