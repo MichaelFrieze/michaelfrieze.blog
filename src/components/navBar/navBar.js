@@ -112,7 +112,8 @@ const LinkUl = styled.ul`
     font-weight: var(--font-weight-regular);
   }
 
-  a:hover, a:focus {
+  a:hover,
+  a:focus {
     color: var(--color-blue);
   }
 

@@ -15,7 +15,7 @@ const Home = ({ pageContext, data }) => {
   useLayoutEffect(() => {
     const filteredPostData = currentCategory
       ? postData.filter(
-          ({ node }) => node.frontmatter.category === currentCategory
+          ({ node }) => node.frontmatter.category === currentCategory,
         )
       : postData;
 
@@ -33,7 +33,7 @@ const Home = ({ pageContext, data }) => {
         },
       } = node;
 
-      setPosts((prevPost) => [
+      setPosts(prevPost => [
         ...prevPost,
         {
           id,

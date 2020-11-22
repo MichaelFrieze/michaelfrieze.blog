@@ -43,7 +43,7 @@ const NotFound = () => {
 
         if (++colorIndex >= COLORS.length) colorIndex = 0;
 
-        setParticles((prevParticles) => [...prevParticles, newParticle]);
+        setParticles(prevParticles => [...prevParticles, newParticle]);
       }
     };
 

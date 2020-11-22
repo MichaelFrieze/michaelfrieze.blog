@@ -16,7 +16,7 @@ const PostGrid = ({ posts }) => {
 
   return (
     <Grid role="list">
-      {currentList.map((data) => {
+      {currentList.map(data => {
         const { id, slug, title, desc, date, category, thumbnail, alt } = data;
         const ariaLabel = `${title} - ${category} - Posted on ${date}`;
         return (

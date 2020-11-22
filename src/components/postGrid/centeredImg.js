@@ -20,7 +20,7 @@ const CenteredImg = ({ src, alt }) => {
     }
   `);
 
-  const image = data.allImageSharp.edges.find((edge) => edge.node.id === src);
+  const image = data.allImageSharp.edges.find(edge => edge.node.id === src);
 
   if (!alt) alt = 'Thumbnail Image';
 

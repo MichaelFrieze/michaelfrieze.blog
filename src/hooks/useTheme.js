@@ -15,7 +15,7 @@ const useTheme = () => {
       setTheme(window.__theme);
     }
 
-    window.__onThemeChange = (newTheme) => {
+    window.__onThemeChange = newTheme => {
       setTheme(newTheme);
     };
   }, []);
