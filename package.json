@@ -1,6 +1,6 @@
 {
-  "name": "@sungik-choi/gatsby-starter-apple",
-  "description": "Gatsby blog starter kit with beautiful and simple design",
+  "name": "michaelfrieze.blog",
+  "description": "The blog of Michael Frieze",
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
@@ -43,29 +43,11 @@
     "typography": "^0.16.19",
     "vscode-theme-github-light": "github:chuling/vscode-theme-github-light"
   },
-  "devDependencies": {
-    "eslint": "^7.11.0",
-    "eslint-plugin-react": "^7.21.4",
-    "eslint-plugin-react-hooks": "^4.1.2",
-    "prettier": "2.0.5"
-  },
-  "author": {
-    "name": "Sungik Choi",
-    "email": "sungik.dev@gmail.com",
-    "url": "https://sungikchoi.com"
-  },
-  "keywords": [
-    "gatsby"
-  ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/sungik-choi/gatsby-starter-apple.git"
+    "url": "https://github.com/MichaelFrieze/michaelfrieze.blog"
   },
   "bugs": {
-    "url": "https://github.com/sungik-choi/gatsby-starter-apple/issues",
-    "email": "sungik.dev@gmail.com"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
   }
 }
