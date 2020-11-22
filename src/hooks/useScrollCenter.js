@@ -17,7 +17,7 @@ const useScrollCenter = ({ ref, targetId }) => {
       offsetX -
         categoryWrapEl.offsetWidth / 2 +
         activeCategoryEl.offsetWidth / 2,
-      0
+      0,
     );
   }, [ref, targetId]);
 };

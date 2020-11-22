@@ -43,7 +43,7 @@ class GlowParticle {
       this.radius * 0.01,
       this.x,
       this.y,
-      this.radius
+      this.radius,
     );
 
     g.addColorStop(0, `rgba(${this.rgb.r}, ${this.rgb.g}, ${this.rgb.b}, 1)`);

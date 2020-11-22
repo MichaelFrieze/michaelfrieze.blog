@@ -22,7 +22,7 @@ const useSiteMetadata = () => {
           }
         }
       }
-    `
+    `,
   );
   return site;
 };

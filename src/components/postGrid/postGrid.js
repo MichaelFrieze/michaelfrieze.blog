@@ -1,9 +1,9 @@
 import React, { useRef } from 'react';
 import { Link } from 'gatsby';
 import styled from 'styled-components';
+import useInfiniteScroll from 'hooks/useInfiniteScroll';
 import Card from './card';
 import { ThumbnailWrapper } from './centeredImg';
-import useInfiniteScroll from 'hooks/useInfiniteScroll';
 
 const PostGrid = ({ posts }) => {
   const scrollEdgeRef = useRef(null);
@@ -16,7 +16,7 @@ const PostGrid = ({ posts }) => {
 
   return (
     <Grid role="list">
-      {currentList.map((data) => {
+      {currentList.map(data => {
         const { id, slug, title, desc, date, category, thumbnail, alt } = data;
         const ariaLabel = `${title} - ${category} - Posted on ${date}`;
         return (

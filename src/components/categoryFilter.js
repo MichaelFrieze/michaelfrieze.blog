@@ -23,7 +23,7 @@ const CategoryFilter = ({ categoryList }) => {
       <CategoryUl ref={categoryRef} className="invisible-scrollbar">
         {categoryList
           .sort((a, b) => b.totalCount - a.totalCount)
-          .map((category) => {
+          .map(category => {
             const { fieldValue } = category;
             return (
               <li key={fieldValue}>

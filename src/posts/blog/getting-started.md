@@ -1,10 +1,10 @@
 ---
-title: "Getting Started"
-category: "Instruction"
-date: "2020-03-01 12:00:00 +09:00"
+title: 'Getting Started'
+category: 'Instruction'
+date: '2020-03-01 12:00:00 +09:00'
 desc: "Let's start making blogs step by step!"
-thumbnail: "./images/getting-started/thumbnail.jpg"
-alt: "apple and shaking hands"
+thumbnail: './images/getting-started/thumbnail.jpg'
+alt: 'apple and shaking hands'
 ---
 
 ## Add Post
@@ -22,11 +22,13 @@ alt: "apple and shaking hands"  // [optional] thumbnail image alt
 ---
 ```
 
-- *NOTE* :  Properties other than alt must be required.
+- _NOTE_ : Properties other than alt must be required.
 
 ## Edit About Page
 
-Easy. You can modify the `blog/about.md` file. If you need additional styling, give an id or class to a specific element in `about.md` and try to control it in the `pages/about.js` file.
+Easy. You can modify the `blog/about.md` file. If you need additional styling,
+give an id or class to a specific element in `about.md` and try to control it in
+the `pages/about.js` file.
 
 An example is shown below.
 
@@ -86,6 +88,9 @@ export default About;
 
 ## Other Customization
 
-You can freely customize each componentfile using the styled-component. If you want to change the style globally, you can change the `styles/globalStyle` file.
+You can freely customize each componentfile using the styled-component. If you
+want to change the style globally, you can change the `styles/globalStyle` file.
 
-Thank you for using `gatsby-starter-apple`. If you have any questions, please leave them on this **[link](https://github.com/sungik-choi/gatsby-starter-apple/issues).**
+Thank you for using `gatsby-starter-apple`. If you have any questions, please
+leave them on this
+**[link](https://github.com/sungik-choi/gatsby-starter-apple/issues).**

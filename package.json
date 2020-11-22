@@ -1,12 +1,14 @@
 {
-  "name": "@sungik-choi/gatsby-starter-apple",
-  "description": "Gatsby blog starter kit with beautiful and simple design",
+  "name": "michaelfrieze.blog",
+  "description": "The blog of Michael Frieze",
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean"
@@ -44,28 +46,24 @@
     "vscode-theme-github-light": "github:chuling/vscode-theme-github-light"
   },
   "devDependencies": {
-    "eslint": "^7.11.0",
-    "eslint-plugin-react": "^7.21.4",
-    "eslint-plugin-react-hooks": "^4.1.2",
-    "prettier": "2.0.5"
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.14.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-config-wesbos": "^1.0.1",
+    "eslint-plugin-html": "^6.1.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "prettier": "^2.2.0"
   },
-  "author": {
-    "name": "Sungik Choi",
-    "email": "sungik.dev@gmail.com",
-    "url": "https://sungikchoi.com"
-  },
-  "keywords": [
-    "gatsby"
-  ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/sungik-choi/gatsby-starter-apple.git"
+    "url": "https://github.com/MichaelFrieze/michaelfrieze.blog"
   },
   "bugs": {
-    "url": "https://github.com/sungik-choi/gatsby-starter-apple/issues",
-    "email": "sungik.dev@gmail.com"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
   }
 }

@@ -38,9 +38,9 @@ const useInfiniteScroll = ({
       threshold: [0],
     };
 
-    observer.current = new IntersectionObserver((entries) => {
+    observer.current = new IntersectionObserver(entries => {
       if (!hasMore) return;
-      entries.forEach((entry) => {
+      entries.forEach(entry => {
         if (!observerLoading) {
           setObserverLoading(true);
           return;

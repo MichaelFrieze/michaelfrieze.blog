@@ -1,24 +1,22 @@
 import React from 'react';
 import styled from 'styled-components';
-import CenteredImg from './centeredImg';
 import Category from 'styles/category';
 import DateTime from 'styles/dateTime';
+import CenteredImg from './centeredImg';
 
-const Card = ({ thumbnail, alt, category, title, desc, date }) => {
-  return (
-    <Wrapper>
-      <CenteredImg src={thumbnail} alt={alt} />
-      <Text>
-        <div>
-          <Category>{category}</Category>
-          <Title>{title}</Title>
-          <Desc>{desc}</Desc>
-        </div>
-        <DateTime dateTime={date}>{date}</DateTime>
-      </Text>
-    </Wrapper>
-  );
-};
+const Card = ({ thumbnail, alt, category, title, desc, date }) => (
+  <Wrapper>
+    <CenteredImg src={thumbnail} alt={alt} />
+    <Text>
+      <div>
+        <Category>{category}</Category>
+        <Title>{title}</Title>
+        <Desc>{desc}</Desc>
+      </div>
+      <DateTime dateTime={date}>{date}</DateTime>
+    </Text>
+  </Wrapper>
+);
 
 const Wrapper = styled.div`
   position: relative;

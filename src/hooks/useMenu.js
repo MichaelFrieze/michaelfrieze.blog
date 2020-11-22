@@ -18,18 +18,18 @@ const useMenu = ({ navRef, curtainRef, listRef, device }) => {
     const FOCUSABLE_TABINDEX = 0;
     const DISABLE_FOCUS_TABINDEX = -1;
     const focusableElements = listRef.current.querySelectorAll(
-      focusableElementsString
+      focusableElementsString,
     );
 
     if (!mql.current.matches) {
-      focusableElements.forEach((e) =>
-        e.setAttribute('tabindex', FOCUSABLE_TABINDEX)
+      focusableElements.forEach(e =>
+        e.setAttribute('tabindex', FOCUSABLE_TABINDEX),
       );
       return;
     }
 
     const tabIndex = toggle ? FOCUSABLE_TABINDEX : DISABLE_FOCUS_TABINDEX;
-    focusableElements.forEach((e) => e.setAttribute('tabindex', tabIndex));
+    focusableElements.forEach(e => e.setAttribute('tabindex', tabIndex));
   }, [focusableElementsString, listRef, toggle]);
 
   useEffect(() => {
@@ -45,12 +45,12 @@ const useMenu = ({ navRef, curtainRef, listRef, device }) => {
     const ESC_KEYCODE = 27;
     const TAB_KEYCODE = 9;
     const focusableElements = navRef.current.querySelectorAll(
-      focusableElementsString
+      focusableElementsString,
     );
     const firstTabStop = focusableElements[0];
     const lastTabStop = focusableElements[focusableElements.length - 1];
 
-    const trapTabKey = (e) => {
+    const trapTabKey = e => {
       if (!toggle) return;
       if (e.keyCode === TAB_KEYCODE) {
         if (e.shiftKey) {
@@ -58,11 +58,9 @@ const useMenu = ({ navRef, curtainRef, listRef, device }) => {
             e.preventDefault();
             lastTabStop.focus();
           }
-        } else {
-          if (document.activeElement === lastTabStop) {
-            e.preventDefault();
-            firstTabStop.focus();
-          }
+        } else if (document.activeElement === lastTabStop) {
+          e.preventDefault();
+          firstTabStop.focus();
         }
       }
       if (e.keyCode === ESC_KEYCODE) setToggle(false);
@@ -89,7 +87,7 @@ const useMenu = ({ navRef, curtainRef, listRef, device }) => {
       }, TIMER);
     };
 
-    const closeMenu = (e) => {
+    const closeMenu = e => {
       if (e.matches) {
         hideAnimation();
         return;
