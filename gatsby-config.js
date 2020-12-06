@@ -20,6 +20,18 @@ module.exports = {
         link: '/about/',
         name: 'About',
       },
+      {
+        link: 'https://twitter.com/michaelfrieze',
+        name: 'Twitter',
+      },
+      {
+        link: 'https://www.facebook.com/michaelfrieze88/',
+        name: 'Facebook',
+      },
+      {
+        link: 'https://github.com/michaelfrieze',
+        name: 'GitHub',
+      },
     ],
     plugins: [
       'gatsby-plugin-robots-txt',

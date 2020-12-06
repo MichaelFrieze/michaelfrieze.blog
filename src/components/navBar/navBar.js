@@ -41,7 +41,6 @@ const NavBar = ({ title, themeToggler }) => {
             <MenuIcon onClickHandler={onClickHandler} toggle={toggle} />
             <LinkUl ref={listRef} toggle={toggle}>
               <LinkList links={menuLinks} setToggle={setToggle} />
-              <li>Test</li>
               <li>
                 <ThemeToggleButton themeToggler={themeToggler} />
               </li>
