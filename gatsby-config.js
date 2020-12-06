@@ -21,8 +21,16 @@ module.exports = {
         name: 'About',
       },
       {
-        link: meta.links.github,
-        name: 'Github',
+        link: 'https://twitter.com/michaelfrieze',
+        name: 'Twitter',
+      },
+      {
+        link: 'https://www.facebook.com/michaelfrieze88/',
+        name: 'Facebook',
+      },
+      {
+        link: 'https://github.com/michaelfrieze',
+        name: 'GitHub',
       },
     ],
     plugins: [
