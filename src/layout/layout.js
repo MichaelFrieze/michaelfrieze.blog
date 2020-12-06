@@ -11,9 +11,9 @@ const Layout = ({ children }) => {
   const [theme, themeToggler] = useTheme();
   const site = useSiteMetadata();
   const { title, author } = site.siteMetadata;
-  const copyrightStr = `Copyright © ${author}. Built with `;
-  const repoName = 'gatsby-starter-apple';
-  const repoSrc = 'https://github.com/sungik-choi/gatsby-starter-apple';
+  const copyrightStr = `View source code: `;
+  const repoName = 'michaelfrieze.blog';
+  const repoSrc = 'https://github.com/MichaelFrieze/michaelfrieze.blog';
 
   return (
     <ThemeProvider theme={styledTheme}>

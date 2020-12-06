@@ -20,10 +20,6 @@ module.exports = {
         link: '/about/',
         name: 'About',
       },
-      {
-        link: meta.links.github,
-        name: 'Github',
-      },
     ],
     plugins: [
       'gatsby-plugin-robots-txt',
