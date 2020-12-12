@@ -14,23 +14,11 @@ module.exports = {
     menuLinks: [
       {
         link: '/',
-        name: 'Home',
+        name: 'Blog',
       },
       {
         link: '/about/',
         name: 'About',
-      },
-      {
-        link: 'https://twitter.com/michaelfrieze',
-        name: 'Twitter',
-      },
-      {
-        link: 'https://www.facebook.com/michaelfrieze88/',
-        name: 'Facebook',
-      },
-      {
-        link: 'https://github.com/michaelfrieze',
-        name: 'GitHub',
       },
     ],
     plugins: [

@@ -1,8 +1,11 @@
-# Hello
+# About
 
+This is my blog where I talk about whatever interest me. You can expect a wide range of categories such as music, health, history, politics, software development, etc... 
 
-​	Without good faith defenses of other points of view, our only exposure to them is one-sided and biased. Driving us to a certainty that our ideas are the only sensible ones and it prevents us from improving our accuracy. I think one of our core principles should be to assume good faith wherever possible. This is based on the idea that most people are trying to help improve the community even if what they say kind of sucks. Good faith discussion is necessary to build the most objective and factual reference possible.
+I don't have anything else to say, for now. I will update this page later. 
 
-
-
-​	I think rhetoric is fine. I consider it a kind of performance art and it can be very effective. However, if you decide to make a punching bag out of someone’s seemingly ludicrous point of view, it is foolish to believe the one holding that view will suddenly want to be on your team. For that, we will need a healthy dose of good faith.
+Where you can find me:
+* [Twitter](https://twitter.com/michaelfrieze)
+* [Facebook](https://www.facebook.com/michaelfrieze88)
+* [Principia Carnivora](https://www.facebook.com/groups/PrincipiaCarnivora)
+* [GitHub](https://github.com/MichaelFrieze)
