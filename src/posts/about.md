@@ -2,7 +2,7 @@
 
 This is my blog where I talk about whatever interest me. You can expect a wide range of categories such as music, health, history, politics, software development, etc... 
 
-I don't have anything else to say, for now. I will update this page later. 
+I don't have anything else to say, for now. 
 
 Where you can find me:
 * [Twitter](https://twitter.com/michaelfrieze)
